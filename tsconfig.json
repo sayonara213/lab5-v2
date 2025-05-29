@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "target": "es2017", // Or later
-    "lib": ["es2017"], // Include the desired library
+    "target": "ES6",
     "module": "ESNext",
     "moduleResolution": "bundler",
+    "lib": ["DOM", "es2017"],
     "strict": true,
     "esModuleInterop": true,
     "types": ["webxr"]
